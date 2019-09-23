@@ -1,4 +1,4 @@
-pub(crate) struct Rectangle {
+pub struct Rectangle {
     pub x: f32,
     pub y: f32,
     pub width: f32,
