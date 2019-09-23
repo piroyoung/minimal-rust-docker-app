@@ -10,8 +10,7 @@ fn main() {
         width: 10.0,
         height: 10.0,
     };
-
-    for point in rect.get_vertices().iter() {
+    rect.get_vertices().iter().for_each(|point| {
         println!("{0},{1}", point[0], point[1])
-    }
+    });
 }
