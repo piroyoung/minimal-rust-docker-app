@@ -1,7 +1,7 @@
-use shape::Polygon;
-use shape::Rectangle;
+use polygon::Polygon;
+use polygon::Rectangle;
 
-mod shape;
+mod polygon;
 
 fn main() {
     let rect = Rectangle {
